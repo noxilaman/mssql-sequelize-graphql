@@ -1,0 +1,44 @@
+{
+  "development": {
+    "username": "userpm3",
+    "password": "",
+    "database": "",
+    "host": "lacodb2",
+    "dialect": "mssql",
+    "port": 1433,
+    "dialectOptions": {
+      "driver": "SQL Server Native Client 11.0",
+      "options":{
+        "encrypy":false
+      }
+    }
+  },
+  "test": {
+    "username": "userpm3",
+    "password": "",
+    "database": "",
+    "host": "lacodb2",
+    "dialect": "mssql",
+    "port": 1433,
+    "dialectOptions": {
+      "driver": "SQL Server Native Client 11.0",
+      "options":{
+        "encrypy":false
+      }
+    }
+  },
+  "production": {
+    "username": "userpm3",
+    "password": "",
+    "database": "",
+    "host": "lacodb2",
+    "dialect": "mssql",
+    "port": 1433,
+    "dialectOptions": {
+      "driver": "SQL Server Native Client 11.0",
+      "options":{
+        "encrypy":false
+      }
+    }
+  }
+}

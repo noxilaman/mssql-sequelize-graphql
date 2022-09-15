@@ -1,0 +1,19 @@
+{
+  "name": "mssqlseqgrapql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.3.3"
+  },
+  "dependencies": {
+    "sequelize": "^6.20.1",
+    "sequelize-auto": "^0.0.7",
+    "tedious": "^14.5.0"
+  }
+}

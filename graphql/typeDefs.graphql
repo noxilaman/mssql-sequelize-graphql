@@ -1,0 +1,25 @@
+type Query {
+  getAlertQs: [alert_qs]
+  getAlertQ(AlertQId: ID!): alert_qs
+}
+
+type alert_qs {
+    id: ID!
+    crop_id: String
+    sowing_id: String
+    plan_act_id: String
+    user_act_id: String
+    case_txt: String
+    cond_range: String
+}
+
+type Mutation {
+  createAlertQ(
+    crop_id: String
+    sowing_id: String
+    plan_act_id: String
+    user_act_id: String
+    case_txt: String
+    cond_range: String
+  ): String
+}
